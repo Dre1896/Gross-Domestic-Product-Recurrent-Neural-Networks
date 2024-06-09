@@ -1,7 +1,49 @@
-![Alt Text](https://www.visualcapitalist.com/wp-content/uploads/2023/08/global-economy-2023-1200px.jpg)
+<h1 align="center">
+<img src="banner.png">
+</h1> 
 
-This project is an exploration of Gross Domestic Product and Recurrent Neural Networks. Our project aims to evaluate the Gross Domestic Product (GDP) of the world economy and incorporate time series analysis into this process. According to the latest International Monetary Fund (IMF) projections from its 2023 World Economic Outlook report, the global GDP is expected to reach an impressive $105 trillion by the end of 2023, representing a $5 trillion increase from the previous year. 
+# Gross Domestic Product Analysis using Time Series
+<div align="center">
+  <p align="justify">
+This project utilizes Recurrent Neural Networks (RNNs) to analyze and forecast the Gross Domestic Product (GDP) trends based on data from the FRED Economic Data St. Louis Database. It specifically explores how GDP has evolved over time and applies advanced time series analysis techniques to predict future economic scenarios. With the backdrop of the IMF's 2023 projection of a global GDP reaching $105 trillion, this analysis becomes crucial for understanding potential growth trajectories and economic resilience in varying global conditions.
+  </p>
+</div>
 
-This nominal figure reflects a substantial 5.3% growth in the world's economic output, with an inflation-adjusted increase of 2.8%. Despite a turbulent start to the year marked by financial challenges and inflation, some economies have shown resilience and are poised for growth. Notably, the United States is projected to maintain its position as the largest economy with a GDP of $26.9 trillion, followed by China at $19.4 trillion. India is expected to surpass the UK and become the fifth-largest economy with a projected GDP of $3.7 trillion in 2023. 
+<h1 align="center">
+<img src="https://www.visualcapitalist.com/wp-content/uploads/2023/08/global-economy-2023-1200px.jpg" width=75%>
+</h1> 
 
-This project will analyze these economic trends, incorporating time series data to gain deeper insights into the dynamics driving these changes and their potential implications for the global economy. It's important to note that while these projections provide valuable insights, they are based on assumptions made at the beginning of the year and may evolve as economic conditions change throughout 2023. Our evaluation will focus on the delicate balance between controlling inflation and promoting economic growth in the face of challenging liquidity conditions.
+## 🔑 Key Feature
+
+### Time Series Analysis:
+Implements RNNs to capture the sequential dependency across quarterly GDP data, highlighting trends and potential cyclic behavior.
+
+### Data Preprocessing:
+Cleans and prepares time series data, ensuring quality and consistency for effective model training.
+
+### Seasonal Decomposition:
+Breaks down the GDP data into trend, seasonal, and residual components, allowing for a nuanced understanding of underlying patterns.
+
+### Feature Engineering:
+Enhances the dataset with features derived from raw time series data, improving the model's learning capability.
+
+### GDP Forecasting:
+Employs neural networks to forecast GDP for upcoming quarters, providing insights into future economic conditions.
+
+
+## 🧠 Skills
+- Python
+- Time Series Analysis
+- Recurrent Neural Networks
+- Data Visualization
+- Statistical Modeling
+- Keras
+- TensorFlow
+
+
+## ⚙️ Future Work
+- Enhance Forecasting Models: Explore more sophisticated neural network architectures like LSTM and GRU to improve accuracy and reduce forecasting errors.
+- Expand Economic Indicators: Integrate additional economic indicators such as inflation rates, unemployment rates, and consumer indexes to create a more robust model.
+- Real-Time Data Integration: Develop a system to ingest real-time economic data, allowing for more dynamic and timely GDP forecasts.
+
+
