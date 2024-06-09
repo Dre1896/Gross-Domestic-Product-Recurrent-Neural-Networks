@@ -19,7 +19,7 @@ This project utilizes Recurrent Neural Networks (RNNs) to analyze and forecast t
 Implements RNNs to capture the sequential dependency across quarterly GDP data, highlighting trends and potential cyclic behavior.</br></br>
 
 ### Data Preprocessing:
-<img src="1.png" width=65%>
+<img src="1.png" width=85%>
 Cleans and prepares time series data, ensuring quality and consistency for effective model training.
 </br></br>
 
@@ -32,7 +32,7 @@ Enhances the dataset with features derived from raw time series data, improving 
 </br></br>
 
 ### GDP Forecasting:
-<img src="2.png" width=65%>
+<img src="2.png" width=85%>
 Employs neural networks to forecast GDP for upcoming quarters, providing insights into future economic conditions.
 </br></br>
 
